@@ -46,6 +46,9 @@ Nota: vengono distribuite delle dispense digitali in classe.
 - [Distribuzione dei semi di girasole](https://demonstrations.wolfram.com/SunflowerSeedArrangements/)
 - [Musica e matematica](https://imaginary.org/sites/default/files/20190911-lala-booklet-v0.4-web-text.pdf)
 
+#### Strumenti
+- [Desmos Graphing Calculator](https://www.desmos.com/calculator)
+
 #### Artisti e designers 
 - [Memo Akten, Simple Harmonic Motion](https://vimeo.com/23539090)
 - [Toby Schachmann (noise, ricorsività, ecc.)](http://tobyschachman.com)
