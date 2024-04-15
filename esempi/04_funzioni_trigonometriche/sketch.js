@@ -38,16 +38,17 @@ function draw() {
 	line(-width/2, 0, width/2, 0)
 	line(0, -height/2, 0, height/2)
 
-	// Arco
-	arc(0, 0, 50, 50, 0, angolo)
-
 	// Cerchio
 	ellipse(0, 0, raggio * 2, raggio * 2)
 
 	// Raggio
+	line(0, 0, x, y)
+
+	// Arco
 	stroke(0)
 	strokeWeight(3)
-	line(0, 0, x, y)
+	arc(0, 0, 50, 50, 0, angolo)
+
 
 	// Coseno
 	stroke(200,0,0)
