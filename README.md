@@ -35,8 +35,9 @@ Il progetto verrà presentato alla classe durante la sessione di esame.
 
 ## Risorse
 
-#### Nota: vengono distribuite delle dispense digitali in classe.
+Nota: vengono distribuite delle dispense digitali in classe.
 
+#### Temi
 - [A primer on Bézier curves](https://pomax.github.io/bezierinfo)
 - [Harmoic Pendulum](https://www.youtube.com/watch?v=yVkdfJ9PkRQ)
 - [Figure di Lissajous](https://en.wikipedia.org/wiki/Lissajous_curve)
@@ -49,11 +50,11 @@ Il progetto verrà presentato alla classe durante la sessione di esame.
 - [Memo Akten, Simple Harmonic Motion](https://vimeo.com/23539090)
 - [Toby Schachmann (noise, ricorsività, ecc.)](http://tobyschachman.com)
 
-#### Scrivere e distribuire codice:
+#### Scrivere e distribuire codice
 - [Visual Studio](https://code.visualstudio.com)
 - [GitHub Desktop](https://desktop.github.com)
 
-#### Documentarsi e imparare a programmare in JavaScript:
+#### Documentarsi e imparare a programmare in JavaScript
 - [Mozilla: JavaScript reference](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
 - [Mozilla: Getting started with the web](https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web)
 - [Eloquent JavaScript](https://eloquentjavascript.net)¹, Marijn Haverbeke
