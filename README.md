@@ -42,12 +42,12 @@ Nota: vengono distribuite delle dispense digitali in classe.
 - [Harmoic Pendulum](https://www.youtube.com/watch?v=yVkdfJ9PkRQ)
 - [Figure di Lissajous](https://en.wikipedia.org/wiki/Lissajous_curve)
 - [Esempi di trigonometria (interattivo)](https://www.mathsisfun.com/algebra/trigonometry.html)
-- [Ghiri, strumento per la tassellazione](https://girihdesigner.com)
 - [Distribuzione dei semi di girasole](https://demonstrations.wolfram.com/SunflowerSeedArrangements/)
 - [Musica e matematica](https://imaginary.org/sites/default/files/20190911-lala-booklet-v0.4-web-text.pdf)
 
 #### Strumenti
 - [Desmos Graphing Calculator](https://www.desmos.com/calculator)
+- [Ghiri, strumento per la tassellazione](https://girihdesigner.com)
 
 #### Artisti e designers 
 - [Memo Akten, Simple Harmonic Motion](https://vimeo.com/23539090)
