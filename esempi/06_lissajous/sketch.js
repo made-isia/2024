@@ -1,5 +1,5 @@
 function setup() {
-	createCanvas(500, 500)
+	createCanvas(windowWidth, windowHeight)
 	background(0)
 }
 
@@ -10,10 +10,10 @@ function draw() {
 
 	translate(width/2, height/2)
 
-	const numFrames = 1200
-	const t = frameCount * TAU / numFrames
+	const num = 1200
+	const t = frameCount * TAU / num
 
-	const raggio = 190
+	const raggio = min(width/2, height/2)
 	const A = 3
 	const B = 4
 
@@ -28,7 +28,11 @@ function draw() {
 	fill(r, g, b)
 	ellipse(x, y, 300, 300)
 
+}
 
+function windowResized(){
+	resizeCanvas(windowWidth, windowHeight)
+	background(0)
 }
 
 function keyPressed() {
