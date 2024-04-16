@@ -11,7 +11,7 @@ class Vec2 {
 	// Funzione che stampa i componenti x, y e il modulo del vettore
 	// nella console
 	toString() {
-		return ("x=" + this.x + ", y=" + this.y + " │" + this.modulo().toFixed(2) + "│")
+		return ("x=" + this.x.toFixed(2) + ", y=" + this.y.toFixed(2) + " │" + this.modulo().toFixed(2) + "│")
 	}
 
 	// Funzione che disegna il vettore applicato ad un punto
