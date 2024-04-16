@@ -48,12 +48,21 @@ class Vec2 {
 
 	// Funzione che ritorna un nuovo vettore
 	// risultante dalla moltiplicazione del vettore per uno scalare s
-	molt(scalare) {
+	moltiplica(scalare) {
 		return new Vec2(this.x * scalare, this.y * scalare)
 	}
 
 	// Funzione che ritorna una copia vettore
 	copia() {
 		return new Vec2(this.x, this.y)
+	}
+
+	// Funzione che ruota un vettore
+	ruota(ang) {
+		const c = Math.cos(ang)
+		const s = Math.sin(ang)
+		const rx = c * this.x - s * this.y
+		const ry = s * this.x + c * this.y
+		return new Vec2(rx, ry)
 	}
 }

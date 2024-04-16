@@ -20,7 +20,7 @@ function draw() {
 	noStroke()
 	fill(0)
 	for (let i=0; i<num+1; i++) {
-		const p = C.molt(i / num).somma(A)
+		const p = C.moltiplica(i / num).somma(A)
 		circle(p.x, p.y, i % 2 * 7 + 10)
 	}
 }

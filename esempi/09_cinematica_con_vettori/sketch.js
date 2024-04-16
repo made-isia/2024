@@ -18,9 +18,9 @@ function draw() {
 
 	const spostamento = tartaruga.sottrai(achille)
 
-	achille = achille.somma(spostamento.molt(0.03))
+	achille = achille.somma(spostamento.moltiplica(0.03))
 
-	spostamento.molt(0.5).disegna(color(255,0,0), achille)
+	spostamento.moltiplica(0.5).disegna(color(255,0,0), achille)
 
 	noFill()
 	// stroke(255,0,0)

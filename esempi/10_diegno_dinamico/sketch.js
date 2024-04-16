@@ -18,9 +18,9 @@ function draw() {
 	// Vettore "mouse"
 	const m = new Vec2(mouseX, mouseY)
 
-	const delta = m.sottrai(pos).molt(0.05)
+	const delta = m.sottrai(pos).moltiplica(0.05)
 	forza = forza.somma(delta)
-	forza = forza.molt(0.94) // smorziamo la forza
+	forza = forza.moltiplica(0.94) // smorziamo la forza
 	pos = pos.somma(forza)
 
 	// Aggiungiamo un elemento (una copia della posizione attuale) alla “coda”...

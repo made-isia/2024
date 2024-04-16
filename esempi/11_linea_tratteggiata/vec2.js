@@ -48,7 +48,7 @@ class Vec2 {
 
 	// Funzione che ritorna un nuovo vettore
 	// risultante dalla moltiplicazione del vettore per uno scalare s
-	molt(scalare) {
+	moltiplica(scalare) {
 		return new Vec2(this.x * scalare, this.y * scalare)
 	}
 
