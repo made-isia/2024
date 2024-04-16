@@ -29,7 +29,9 @@ function draw() {
 	if (coda.length > 100) coda.shift()
 
 	// Disegnamo la coda
-	strokeWeight(5)
+	strokeCap(ROUND)
+	strokeJoin(ROUND)
+	strokeWeight(10)
 	beginShape()
 	coda.forEach( v => vertex(v.x, v.y))
 	endShape()
