@@ -9,9 +9,8 @@ function draw() {
 	const p3 = new Vec2(50, 0)
 
 	let m = new Mat2()
-	//m = m.scala(mouseX * 0.01, mouseY * 0.01)
-	//m = m.ruota(mouseX * 0.01)
-	m = m.scala(1, 1)
+	m = m.ruota(mouseX * 0.01)
+	m = m.scala(-1, 1)
 
 
 	const t1 = m.moltiplicaVettore(p1)
@@ -20,12 +19,17 @@ function draw() {
 
 	background(255)
 
+	// Testo
 	fill(0)
 	noStroke()
 	text(m.toString(), 20, 40)
 
-
+	// Origine
+	strokeWeight(1)
 	translate(width/2, height/2)
+	stroke(0, 30)
+	line(0, -height/2, 0, height/2)
+	line(-width/2, 0, width/2, 0)
 
 
 	noFill()
