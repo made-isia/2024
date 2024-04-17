@@ -76,10 +76,10 @@ class Mat3 {
 	}
 
 	inverti() {
-		const d = determinante()
+		const d = this.determinante()
 		if (Math.abs(d) <= 5e-16) return null
 
-		const target = copia()
+		const target = this.copia()
 
 		target.m00 =  this.m11 / d
 		target.m10 = -this.m10 / d
@@ -96,7 +96,6 @@ class Mat3 {
 	}
 
 	toString() {
-		return this.m00//.toFixed(2)
 		let str = ""
 		str += "|" + this.m00.toFixed(2) + " " + this.m01.toFixed(2) + " " + this.m02.toFixed(2) + "|\n"
 		str += "|" + this.m10.toFixed(2) + " " + this.m11.toFixed(2) + " " + this.m12.toFixed(2) + "|\n"
