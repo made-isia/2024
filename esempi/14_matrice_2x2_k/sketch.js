@@ -3,7 +3,7 @@ const punti = []
 
 function setup() {
 
-	createCanvas(400, 400)
+	createCanvas(500, 500)
 
 	punti[ 0] = new Vec2(0.00, 0.00)
 	punti[ 1] = new Vec2(2.14, 0.00)
@@ -25,14 +25,23 @@ function draw() {
 	m = m.ruota(mouseX * 0.01)
 	m = m.scala(sin(frameCount * 0.012) * 20, sin(frameCount * 0.031) * 20)
 
+
 	background(255)
 
+	// Testo
 	fill(0)
 	noStroke()
 	text(m.toString(), 20, 40)
 
+	// Origine
 	translate(width/2, height/2)
+	stroke(0, 30)
+	line(0, -height/2, 0, height/2)
+	line(-width/2, 0, width/2, 0)
 
+	// K
+	noStroke()
+	fill(0)
 	beginShape()
 	for (let i=0; i<punti.length; i++) {
 		const pt = m.moltiplicaVettore(punti[i])
