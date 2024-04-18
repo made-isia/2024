@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Image swap</title>
+		<style type="text/css">
+			body {
+				margin: 2em;
+				background-color: lightgray;
+				color: white;
+				font-family: monospace;
+				font-size: 2em;
+			}
+			img {					
+				filter: saturate(0%);
+				transition: filter 1s;			
+			}
+			img:hover {					
+				filter: saturate(100%);			
+			}
+		</style>
+	</head>
+	<body>
+		<img src="mano/m0.png">
+	</body>
+	<script>
+
+		const mano = document.querySelector('img')
+	
+		mano.addEventListener('mousemove', e => {
+			const pos = e.offsetX
+			const n = Math.floor(pos / 500 * 6)
+			mano.src = "mano/m" + n + ".png"
+		})
+
+		// let n = 0
+		// setInterval( function() {
+		// 	mano.src = "mano/m" + n + ".png"
+		// 	n = (n + 1) % 6
+		// }, 500)
+
+	</script>
+
+</html>
