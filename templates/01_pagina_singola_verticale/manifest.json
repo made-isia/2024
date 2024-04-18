@@ -1,9 +1,7 @@
 {
-	"name": "Crush",
-	"short_name": "Crush",
-	"description": "Crush",
-	"theme_color": "black",
-	"background_color": "black",
+	"name": "MaDe",
+	"short_name": "MaDe",
+	"description": "MaDe",
 	"display_override": ["fullscreen"],
 	"display": "standalone",
 	"icons": [
