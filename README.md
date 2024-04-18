@@ -72,3 +72,5 @@ Nota: vengono distribuite delle dispense digitali in classe.
 - [p5js](https://p5js.org)
 - [Three.js](https://threejs.org)
 - [thi.ng](https://thi.ng)
+
+#### Gruppi di lavoro
