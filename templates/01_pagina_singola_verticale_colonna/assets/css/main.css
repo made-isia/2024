@@ -25,7 +25,6 @@ h1 {
 
 h4 {
 	margin: 0;
-	margin-bottom: 1em;
 }
 
 iframe {
@@ -37,6 +36,8 @@ iframe {
 
 header,
 section {
+	display: grid;
+	grid-template-columns: 1fr 4fr;
 	margin-bottom: 2em;
 	padding-top: 0.25em;
 }
@@ -61,6 +62,10 @@ ul {
 /* -- breakpoint: schermi piccoli, larghezza massima 500 pixel -- */
 
 @media only screen and (max-width: 600px) {
+	header,
+	section {
+		grid-template-columns: 1fr;
+	}
 	.contenitore {
 		width:100%;
 	}
