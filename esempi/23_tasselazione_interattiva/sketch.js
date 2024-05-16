@@ -6,6 +6,7 @@ function setup() {
 
 	piastrella = createGraphics(100, 100)
 	piastrella.background(255)
+
 }
 
 function keyPressed() {
@@ -22,7 +23,6 @@ function draw() {
 		piastrella.ellipse(mouseX % piastrella.width, mouseY % piastrella.height, 5, 5)
 	}
 
-
 	const numX = Math.ceil(width/piastrella.width)
 	const numY = Math.ceil(height/piastrella.height)
 
@@ -31,6 +31,4 @@ function draw() {
 			image(piastrella, piastrella.width * i, piastrella.height * j)
 		}
 	}
-
-
 }
