@@ -13,6 +13,7 @@ function setup() {
 	p1.fisso = true
 
 	const p2 = sim.aggiungiPunto(width/2+50, height/2, 3)
+
 	sim.aggiungiMolla(p1, p2)
 }
 
