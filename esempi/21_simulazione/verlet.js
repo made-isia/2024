@@ -57,12 +57,34 @@ class Sim {
 		}
 
 		// reset fisso
-		for (const p of this.punti){
-			if (p.fisso) {
-				p.pos.x = p.pre.x
-				p.pos.y = p.pre.y
+		// for (const p of this.punti){
+		// 	if (p.fisso) {
+		// 		p.pos.x = p.pre.x
+		// 		p.pos.y = p.pre.y
+		// 	}
+		// }
+	}
+
+	puntoVicinoA(x, y, distanza_massima = Math.sqrt(Number.MAX_VALUE)) {
+
+		const posizione = new Vec2(x, y)
+		const distanza_massima_quadrata = distanza_massima * distanza_massima
+
+		function distanza_quadrata(vecA, vecB) {
+			return Math.pow(vecB.x - vecA.x, 2) + Math.pow(vecB.y - vecA.y, 2)
+		}
+
+		let dist = Number.MAX_VALUE
+		let punto = null
+
+		for (const p of this.punti) {
+			const d = distanza_quadrata(posizione, p.pos)
+			if (d < distanza_massima_quadrata && d < dist) {
+				dist = d
+				punto = p
 			}
 		}
+		return punto
 	}
 
 	aggiungiPunto(x, y, r=1){
@@ -87,9 +109,9 @@ class Sim {
 
 		const l = new Molla(a, b, k, length)
 		this.molle.push(l)
+
 		return l
 	}
-
 
 	bordi(x, y, w, h){
 		const x1 = x + w
