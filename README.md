@@ -108,8 +108,8 @@ Nota: vengono distribuite delle dispense digitali in classe.
   DitherU  
   [mimblewimblee.github.io/DitherU](https://mimblewimblee.github.io/DitherU)  
 
-- **Chiara Francisetti**  
-  Tassellatura 
+- **Chiara Francisetti**   
+  Tassellatura  
   [chiarafrancisetti.github.io/Tassellatura](https://chiarafrancisetti.github.io/Tassellatura)  
    
 - **Letizia Clemente** e **Nina Tresca**  
@@ -118,7 +118,7 @@ Nota: vengono distribuite delle dispense digitali in classe.
 
 - **Elia Parise** e **Tommaso Bianchini**  
   Il colore, modello RGB  
-  [tommasoibianchini.github.io/RGB_MADE_DEF](https://tommasoibianchini.github.io/RGB_MADE_DEF)  
+  [tommasoibianchini.github.io/RGB](https://tommasoibianchini.github.io/RGB)  
 
 -  **Matilde Parisi**  
   Crittografia  
