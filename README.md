@@ -77,8 +77,8 @@ Nota: vengono distribuite delle dispense digitali in classe.
 ## Gruppi di lavoro e progetti
 
 - **Soham Dhingra**  
-  Algoritmi di riordino (sorting)   
-  [?](https://github.io)
+  Visualizzazione degli algoritmi di sorting   
+  [https://pollopillow.github.io/Sorting](https://pollopillow.github.io/Sorting)
 
 - **Irene Casetta** e **Alessia Candioli**  
   Triangoli e trame triangolari  
