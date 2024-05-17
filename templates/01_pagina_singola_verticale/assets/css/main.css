@@ -13,6 +13,21 @@ body {
 	font-variation-settings: "slnt" 0;
 }
 
+a {
+	color: red;
+	text-decoration: none;
+	transition: all 1s;
+}
+a:visited {
+	color: brown;
+}
+a:hover{
+	text-decoration: underline;
+	/* color: gold;
+	margin-left: 1em; */
+}
+
+
 p {
 	margin: 0 0 1em 0;
 	max-width: 30em;
