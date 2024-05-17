@@ -73,4 +73,71 @@ Nota: vengono distribuite delle dispense digitali in classe.
 - [Three.js](https://threejs.org)
 - [thi.ng](https://thi.ng)
 
-#### Gruppi di lavoro
+
+## Gruppi di lavoro e progetti
+
+- **Soham Dhingra**  
+  Algoritmi di riordino (sorting)   
+  [?](https://github.io)
+
+- **Irene Casetta** e **Alessia Candioli**  
+  Triangoli e trame triangolari  
+  [irenecasetta.github.io/Triangle-Mesh](https://irenecasetta.github.io/Triangle-Mesh)
+
+- **Veronica Ridolfi** e **Marta Favaretto**  
+  Onde, matematica e musica  
+  [veronicaridolfi.github.io/Onde](https://veronicaridolfi.github.io/Onde)
+
+- **Lavinia Camoletti** e **Chiara Naldi**  
+  L-Systems  
+  [chiaranaldi.github.io/L-Systems](https://chiaranaldi.github.io/L-Systems)  
+
+- **Pietro Carmignani** e **Lorenzo Battistelli**  
+  RandomU  
+  [pithese.github.io/RandomU](https://pithese.github.io/RandomU)
+
+- **Margot Nocci**  
+  Le curve di Bèzier  
+  [margottnocii.github.io/Bezier](https://margottnocii.github.io/Bezier)  
+
+- **Matteo Borghese** e **Anna Pili**  
+  Le curve di Lissajous  
+  [matteombor.github.io/Lissajous](https://matteombor.github.io/Lissajous)  
+
+- **Tommaso Aulopi** e **Giacomo Pisari**  
+  DitherU  
+  [mimblewimblee.github.io/DitherU](https://mimblewimblee.github.io/DitherU)  
+
+- **Chiara Francisetti**  
+  Tassellatura 
+  [chiarafrancisetti.github.io/Tassellatura](https://chiarafrancisetti.github.io/Tassellatura)  
+   
+- **Letizia Clemente** e **Nina Tresca**  
+   Le Piramidi  
+  [leticlem.github.io/Piramidi](https://leticlem.github.io/Piramidi)  
+
+- **Elia Parise** e **Tommaso Bianchini**  
+  Il colore, modello RGB  
+  [tommasoibianchini.github.io/RGB_MADE_DEF](https://tommasoibianchini.github.io/RGB_MADE_DEF)  
+
+-  **Matilde Parisi**  
+  Crittografia  
+  [mati-pi.github.io/Crittografia](https://mati-pi.github.io/Crittografia)  
+
+- **Prisca Gavin** e **Maria Magnoni**   
+  Noise  
+  [prigav.github.io/Noise](https://prigav.github.io/Noise)  
+
+- **Sabrina Rigodanza** e **Lisa Moretti**  
+  Spirograph  
+  [sabru83.github.io/Spirografo](https://sabru83.github.io/Spirografo)  
+
+- **Luca Angeli**  
+  Morfologia e image processing  
+  [luchezio.github.io/Morfologia](https://luchezio.github.io/Morfologia)  
+
+
+
+
+
+
