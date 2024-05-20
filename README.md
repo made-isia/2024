@@ -76,10 +76,6 @@ Nota: vengono distribuite delle dispense digitali in classe.
 
 ## Gruppi di lavoro e progetti
 
-- **Soham Dhingra**  
-  Visualizzazione degli algoritmi di sorting   
-  [https://pollopillow.github.io/Sorting](https://pollopillow.github.io/Sorting)
-
 - **Irene Casetta** e **Alessia Candioli**  
   Triangoli e trame triangolari  
   [irenecasetta.github.io/Triangle-Mesh](https://irenecasetta.github.io/Triangle-Mesh)
@@ -98,7 +94,7 @@ Nota: vengono distribuite delle dispense digitali in classe.
 
 - **Margot Nocci**  
   Le curve di Bèzier  
-  [margottnocii.github.io/Bezier](https://margottnocii.github.io/Bezier)  
+  [margottnocii.github.io/Bezier](https://margottnoccii.github.io/Bezier)  
 
 - **Matteo Borghese** e **Anna Pili**  
   Le curve di Lissajous  
